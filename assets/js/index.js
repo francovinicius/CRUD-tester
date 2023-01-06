@@ -38,5 +38,17 @@ $(function () {
         populaTabela()
     }
 
+    $("#btnSalvar").click(function () {
+        //evento click do botao
+
+        let Nome = $("#txtNome").val()
+        let Sobrenome = $("#txtSobrenome").val()
+        let DtNascimento = $("#txtDtNascimento").val()
+        let Formacao = $("#txtFormacao").val()
+
+        let registro = {}
+
+        registro.Nome
+    })
 
 });
